@@ -18,6 +18,7 @@ p {
 }
 .hero {
   text-align: center;
+  padding: 160px;
 }
 .hero h1 {
   font-size: 96px;
