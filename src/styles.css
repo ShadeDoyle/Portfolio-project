@@ -1,7 +1,31 @@
-h1 {
-  color: red;
-  font-family: "Playfair Display", serif;
+body {
+  background-color: #2b2b28;
+}
+
+h1,
+h4 {
+  color: aliceblue;
+  font-family: "Noto Serif Display";
+  font-weight: bolder;
 }
 p {
-  font-family: "Dancing Script", cursive;
+  color: aliceblue;
+  font-family: "Noto Serif Display";
+  font-weight: bolder;
+  margin-bottom: 0;
+  font-size: 37px;
+  padding: 0;
+}
+.hero {
+  text-align: center;
+}
+.hero h1 {
+  font-size: 96px;
+}
+.btn {
+  color: aliceblue;
+  border-color: aliceblue;
+  padding: 15px;
+  border-radius: 25px;
+  font-size: 18px;
 }
