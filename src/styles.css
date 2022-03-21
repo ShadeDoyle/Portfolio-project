@@ -21,6 +21,38 @@ p {
   line-height: 1.5;
 }
 
+footer {
+  margin: 30px;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 24px;
+  font-family: var(--main-font);
+}
+footer .socials a {
+  margin: 0 40px;
+  color: aliceblue;
+  font-size: 30px;
+}
+
+footer .email-link:hover {
+  text-decoration: underline;
+  transition: all 150ms ease-in-out;
+}
+footer .contact-box {
+  background-color: #393e46;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+footer .contact-box h4 {
+  font-size: 48px;
+}
+footer .contact-box p {
+  margin: 0;
+}
 .hero p {
   color: aliceblue;
   font-family: var(--main-font);
@@ -37,22 +69,16 @@ p {
   font-size: 96px;
 }
 .contact-btn,
-.projects-btn {
+.projects-btn,
+.weather-app,
+.plantain-app,
+.yoga-app {
   color: aliceblue;
   border-color: aliceblue;
   padding: 15px;
   border-radius: 25px;
   font-size: 18px;
   font-family: var(--main-font);
-}
-.weather-app {
-  border-radius: 200%;
-  color: #2b2b28;
-  padding: 50px;
-  font-family: var(--main-font);
-  background-color: aliceblue;
-  font-size: 16px;
-  font-weight: bolder;
 }
 .section h1 {
   font-size: 64px;
