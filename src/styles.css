@@ -22,7 +22,7 @@ p {
 }
 
 footer {
-  margin: 30px;
+  margin-top: 30px;
 }
 
 footer .email-link {
@@ -88,7 +88,9 @@ footer .contact-box p {
 p {
   font-size: 18px;
 }
-
+.button {
+  text-align: center;
+}
 .section {
   padding: 160px 20px;
 }
@@ -108,5 +110,29 @@ p {
   .section {
     padding: 30px;
     text-align: center;
+  }
+
+  .me {
+    font-size: 13px;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 40px;
+  }
+  .hero p {
+    font-size: 25px;
+  }
+  .hero h4 {
+    font-size: 15px;
+  }
+  .hero {
+    padding: 80px;
+  }
+  .about {
+    text-align: center;
+    padding: 10px;
+  }
+  .email-link {
+    font-size: 15px;
   }
 }
